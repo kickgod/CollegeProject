@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A2715F51-23D4-4E80-B8AA-E82F0EE3A7DC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FamilyConsole</RootNamespace>
+    <AssemblyName>FamilyConsole</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>E:\新生焦虑\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>1A991F5F3870DB7E4300C4E2476EBDC1B81542E4</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>FamilyConsole_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEdit.Designer.cs">
+      <DependentUpon>FrmEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rule.cs" />
+    <Compile Include="dbConnection.cs" />
+    <Compile Include="dbtblNumberInfo.cs" />
+    <Compile Include="dbvwNumberInfo.cs" />
+    <Compile Include="frmCheckSpuse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckSpuse.Designer.cs">
+      <DependentUpon>frmCheckSpuse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOperator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOperator.Designer.cs">
+      <DependentUpon>FrmOperator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddChild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddChild.Designer.cs">
+      <DependentUpon>FrmAddChild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserConnection.cs" />
+    <Compile Include="UserDefine\DateTimeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserDefine\DateTimeControl.Designer.cs">
+      <DependentUpon>DateTimeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserDefine\lblCmbox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserDefine\lblCmbox.Designer.cs">
+      <DependentUpon>lblCmbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserDefine\lblTxt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserDefine\lblTxt.Designer.cs">
+      <DependentUpon>lblTxt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ValueJudge.cs" />
+    <EmbeddedResource Include="frmCheckSpuse.resx">
+      <DependentUpon>frmCheckSpuse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEdit.resx">
+      <DependentUpon>FrmEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOperator.resx">
+      <DependentUpon>FrmOperator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddChild.resx">
+      <DependentUpon>FrmAddChild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserDefine\DateTimeControl.resx">
+      <DependentUpon>DateTimeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDefine\lblCmbox.resx">
+      <DependentUpon>lblCmbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserDefine\lblTxt.resx">
+      <DependentUpon>lblTxt.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="FamilyConsole_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="imges\CaoZuo.png" />
+    <Content Include="imges\family.png" />
+    <Content Include="imges\familyIcon.png" />
+    <Content Include="imges\GongJU.png" />
+    <Content Include="imges\LoginIn.png" />
+    <Content Include="imges\timgLoginOne.jpg" />
+    <Content Include="imges\timgLoginThree.jpg" />
+    <Content Include="imges\timgLoginTwo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
