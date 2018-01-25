@@ -18,3 +18,23 @@ D:\VS2012\FamilyConsole\FamilyConsole\bin\Debug\FamilyConsole.exe.manifest
 D:\VS2012\FamilyConsole\FamilyConsole\bin\Debug\FamilyConsole.application
 D:\VS2012\FamilyConsole\FamilyConsole\obj\Debug\FamilyConsole.exe.manifest
 D:\VS2012\FamilyConsole\FamilyConsole\obj\Debug\FamilyConsole.application
+E:\GitHub Respository\SchoolCode\CollegeProject\FamilyConsole\FamilyConsole\bin\Debug\FamilyConsole.exe.config
+E:\GitHub Respository\SchoolCode\CollegeProject\FamilyConsole\FamilyConsole\obj\Debug\FamilyConsole.exe
+E:\GitHub Respository\SchoolCode\CollegeProject\FamilyConsole\FamilyConsole\obj\Debug\FamilyConsole.pdb
+E:\GitHub Respository\SchoolCode\CollegeProject\FamilyConsole\FamilyConsole\bin\Debug\FamilyConsole.exe.manifest
+E:\GitHub Respository\SchoolCode\CollegeProject\FamilyConsole\FamilyConsole\bin\Debug\FamilyConsole.application
+E:\GitHub Respository\SchoolCode\CollegeProject\FamilyConsole\FamilyConsole\bin\Debug\FamilyConsole.exe
+E:\GitHub Respository\SchoolCode\CollegeProject\FamilyConsole\FamilyConsole\bin\Debug\FamilyConsole.pdb
+E:\GitHub Respository\SchoolCode\CollegeProject\FamilyConsole\FamilyConsole\obj\Debug\FamilyConsole.csprojResolveAssemblyReference.cache
+E:\GitHub Respository\SchoolCode\CollegeProject\FamilyConsole\FamilyConsole\obj\Debug\FamilyConsole.frmCheckSpuse.resources
+E:\GitHub Respository\SchoolCode\CollegeProject\FamilyConsole\FamilyConsole\obj\Debug\FamilyConsole.FrmEdit.resources
+E:\GitHub Respository\SchoolCode\CollegeProject\FamilyConsole\FamilyConsole\obj\Debug\FamilyConsole.FrmLogin.resources
+E:\GitHub Respository\SchoolCode\CollegeProject\FamilyConsole\FamilyConsole\obj\Debug\FamilyConsole.FrmOperator.resources
+E:\GitHub Respository\SchoolCode\CollegeProject\FamilyConsole\FamilyConsole\obj\Debug\FamilyConsole.FrmAddChild.resources
+E:\GitHub Respository\SchoolCode\CollegeProject\FamilyConsole\FamilyConsole\obj\Debug\FamilyConsole.Properties.Resources.resources
+E:\GitHub Respository\SchoolCode\CollegeProject\FamilyConsole\FamilyConsole\obj\Debug\FamilyConsole.UserDefine.DateTimeControl.resources
+E:\GitHub Respository\SchoolCode\CollegeProject\FamilyConsole\FamilyConsole\obj\Debug\FamilyConsole.UserDefine.lblCmbox.resources
+E:\GitHub Respository\SchoolCode\CollegeProject\FamilyConsole\FamilyConsole\obj\Debug\FamilyConsole.UserDefine.lblTxt.resources
+E:\GitHub Respository\SchoolCode\CollegeProject\FamilyConsole\FamilyConsole\obj\Debug\FamilyConsole.csproj.GenerateResource.Cache
+E:\GitHub Respository\SchoolCode\CollegeProject\FamilyConsole\FamilyConsole\obj\Debug\FamilyConsole.exe.manifest
+E:\GitHub Respository\SchoolCode\CollegeProject\FamilyConsole\FamilyConsole\obj\Debug\FamilyConsole.application
